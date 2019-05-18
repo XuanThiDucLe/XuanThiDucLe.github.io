@@ -15,7 +15,7 @@ grid-template-columns: repeat(12, 1fr) ;
 }
 
 .titel{
-  font-family: 
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 25px;
 
