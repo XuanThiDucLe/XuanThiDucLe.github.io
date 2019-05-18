@@ -1,10 +1,48 @@
 body {
-background-color : #7314cc;
+
+
 
 
 
 }
 
+.gridA{
+display: grid;
+grid-template-rows: 150px 1fr;
+grid-template-columns: repeat(12, 1fr) ;
+
+
+}
+
+.titel{
+  font-family: "Tangerine" ;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.text{
+  text-align: center;
+  font-size: 10px;
+
+}
+
+
+.item2{
+margin-top: 200px;
+grid-row-start: 2;
+grid-column-start: 1;
+grid-column-end:  7;
+background-color: rgb(31, 184, 56);
+}
+
+.portrait{
+  grid-row-start: 2;
+  grid-column-start: 8;
+  grid-column-end:  13;
+  background-color: rgb(172, 26, 26);
+
+}
 
 
     .center {
