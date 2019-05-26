@@ -5,15 +5,20 @@ body {
 }
 
 .navbar-light{
+
   background-color: aqua;
 }
 
-
+.navbar-light .navbar-nav .active>.nav-link{
+  color:red;
+  
+}
 
 .bg-light{
   background-color: rgb(61, 57, 75);
-}
 
+
+}
 
 
 .container-fluid{
@@ -111,8 +116,6 @@ height: auto;
   background-color: rgb(58, 14, 218);
 
 }
-
-
 
 .top-buffer {padding-top:50px; }
 

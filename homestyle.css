@@ -1,0 +1,12 @@
+body {
+    background-color: #242e37;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav .navbar-nav>.active> a{
+    color: yellow
+}
