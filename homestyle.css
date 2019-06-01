@@ -76,12 +76,10 @@ nav .navbar-nav>.active> a{
 @media only screen and (max-width:768px){
     
     .navbar-brand{
-        padding-left: 125px;
-        padding-top: 65px;
+        padding-left: 0px;
+        padding-top: 0px;
         font-size: 40px;
-        
-        
-    }
+        }
 
     .projektbox{
         width: 100%;
