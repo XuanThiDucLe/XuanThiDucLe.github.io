@@ -19,7 +19,7 @@ if (window.matchMedia("(min-width:700px)").matches) {
             console.log(texte[i].titel);
             
 
-            var oldColor = document.body.style.background;
+            var oldColor = document.body.style.backgroundImage;
 
             proj.addEventListener("mouseover", () => {
                 proj.style.borderColor = active.border;
@@ -40,7 +40,7 @@ if (window.matchMedia("(min-width:700px)").matches) {
                 proj.style.borderColor = notActive;
                 proj.style.color = notActive;
 
-                document.body.style.background = oldColor;
+                document.body.style.backgroundImage = oldColor;
                 //console.log(oldhomeText.children[0].textContent);
 
 
