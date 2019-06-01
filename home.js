@@ -19,14 +19,15 @@ if (window.matchMedia("(min-width:700px)").matches) {
             console.log(texte[i].titel);
             
 
-            var oldColor = document.body.style.backgroundImage;
+            let oldColor = document.getElementById("background").style.backgroundImage;
 
             proj.addEventListener("mouseover", () => {
                 proj.style.borderColor = active.border;
                 proj.style.background = active.background;
                 proj.style.color = "#242e37";
                 console.log(pic)
-                document.body.style.backgroundImage = pic;
+                document.getElementById("background").style.backgroundImage = pic;
+                document.getElementById("background").style.opacity = 0.5;
                 homeText.children[0].textContent = texte[i].titel;
                 homeText.children[1].textContent = texte[i].text;
 
@@ -39,8 +40,7 @@ if (window.matchMedia("(min-width:700px)").matches) {
                 proj.style.background = oldColor;
                 proj.style.borderColor = notActive;
                 proj.style.color = notActive;
-
-                document.body.style.backgroundImage = oldColor;
+                document.getElementById("background").style.opacity = 0.0;
                 //console.log(oldhomeText.children[0].textContent);
 
 

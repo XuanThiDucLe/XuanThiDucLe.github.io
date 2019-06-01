@@ -1,10 +1,23 @@
 body {
    /* background-color: #242e37; */ 
     color: white;
-    transition: background-image 0.2s ease-in-out;
-    background-image:url("bild4.jpg");
-
+    transition: background-image 0.5s linear;
+    background-color:#616161;
+    
    }
+   #background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
 
 
 nav ul li a {
