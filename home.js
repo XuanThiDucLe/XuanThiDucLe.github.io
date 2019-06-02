@@ -46,6 +46,7 @@ if (window.matchMedia("(min-width:700px)").matches) {
 
             });
         }
+     
 
     }
 

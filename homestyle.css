@@ -1,11 +1,11 @@
 body {
-   /* background-color: #242e37; */ 
+    /* background-color: #242e37; */
     color: white;
     transition: background-image 0.5s linear;
-    background-color:#616161;
-    
-   }
-   #background {
+    background-color: #616161;
+}
+
+#background {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,33 +18,70 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
-.containerHometext{
-    margin-left: 125px;
-    
+.img-fluid{
+  width:100%;
 }
 
+/* Navbar*/
 
-nav ul{
-padding-top: 65px;
-padding-right: 80px;
-
+#navbarNav{
+    padding-top:0px;
+    margin-top:0px;
+    transition: 0.4s;
+}
+nav ul {
+    
+    padding-right: 80px;
 }
 
 nav ul li {
     padding-right: 20px;
-
 }
+
 nav ul li a {
     color: rgb(167, 164, 164);
     font-size: 20px;
-
 }
 
-nav .navbar-nav>.active> a{
+nav .navbar-nav>.active>a {
     color: yellow
 }
 
-.projektbox{
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+    color: yellow;
+    font-family: heisei-kaku-gothic-std, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: yellow;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+/* home */
+
+.containerHometext {
+    margin-left: 125px;
+}
+
+.projektbox {
     width: 100%;
     border-style: solid;
     border-width: 3px;
@@ -54,172 +91,151 @@ nav .navbar-nav>.active> a{
     margin-bottom: 10px;
 }
 
-.custom-toggler.navbar-toggler {
-    border-color: rgb(255,255,255);
+.textUeberschrift {
+    padding-top: 50px;
+}
+/*Tahmen Container*/
+.jumbotron {
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("bild3.jpg");
+    background-color: yellow;
+    
 }
 
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-
-  .navbar-brand{
-    color: yellow;
-    font-family: heisei-kaku-gothic-std, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-  }
-
-  /* kleines Zeug  */
-
-  .textUeberschrift{
-    padding-top: 50px;
-
-  }
 
 
-  a:link,a:visited{
-      text-decoration: none;
-      color: white;
-  }
+.col-12 {
+    padding: 0px;
+}
 
-  .jumbotron{
-    width: 100%;
-    background-image: url("bild3.jpg");
-  }
+/*Projekte*/
 
-  .projektTitel1{
+.projektTitel1 {
     text-align: center;
-  }
-  .projektTitel2{   
+}
+
+.projektTitel2 {
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
+}
 
-  }
-  .projektTexthaufen{
-    text-align: left;
-    padding-left: 30%;
-    padding-right: 30%;
-    
-  }
-
-  .projektTexthaufen{
-      max-width: 100%;
-      height:auto;
-  }
-
-  .projTitelBild{
-    display:block;
+.projektTexthaufen {
     max-width: 100%;
     height: auto;
-   
-}
-.navbar-collapse{
-    margin-top:-70px;
-    padding-right:0px;
-    text-align: right;
-   
 }
 
-.collapse{
-    margin-right:-100px;
-}
-
-
-
+.projTitelBild {
+    display: block;
+    width: 96%;
+    height: auto;
+    
  
-@media only screen and (max-width:700px){
-    .jumbotron{
-        height: 600px;
-        background-size: contain;
-        background-repeat:no-repeat ;
+    
+}
+
+@media only screen and (max-width:700px) {
+
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative;
+      }
+
+    .jumbotron {
+        height: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
-    .navbar-brand{
+    .navbar-brand {
         padding-left: 0px;
         padding-top: 0px;
         font-size: 40px;
-        }
-
-    .projektbox{
+    }
+    .projektbox {
         width: 100%;
         height: 200px;
         border-width: 0px;
-       
         padding-top: 2px;
         padding-bottom: 2px;
         margin-bottom: 10px;
-
     }
-
-    .title{
-        padding-left: 16px;
-        
-    }
-
-    .textFaehigkeiten{
+    .title {
         padding-left: 16px;
     }
-   
-    
-    .portrait{
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
+    .textFaehigkeiten {
+        padding-left: 16px;
+    }
+    .portrait {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 50px;
         margin-top: 50px;
-        width:max-content;
-        
+        width: max-content;
     }
-
-    .container{
+    .container {
         margin: 0%;
         padding: 0%;
         max-width: 100%;
     }
-    #projekt1{
+    #projekt1 {
         background-image: url("bild1.jpg");
     }
-
-    #projekt2{
+    #projekt2 {
         background-image: url("bild2.jpg");
     }
-
-    #projekt3{
+    #projekt3 {
         background-image: url("bild3.jpg");
     }
 
-}
-/* großes Zeug  */
-@media only screen and (min-width:700px){
-   
+    .collapse {
+        margin-right: -100px;
+    }
+    .navbar-collapse {
+        margin-top: -70px;
+        padding-right: 0px;
+        text-align: right;
+    }
+    .projektTexthaufen {
 
-    .jumbotron{
+        text-align: left;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+   
+}
+
+/* großes Zeug  */
+
+@media only screen and (min-width:700px) {
+    .jumbotron {
         height: 600px;
         background-size: cover;
-        
     }
-    .navbar-brand{
+    .navbar-brand {
         padding-left: 125px;
-        padding-top: 65px;
+        padding-top: 20px;
         font-size: 40px;
-        
+    }
+    .title {
+        padding-top: 10rem;
+    }
+    .boxcontainer {
+        padding-top: 10rem;
+    }
+    .portrait {
+        padding-top: 50px;
+    }
+
+    .projektTexthaufen {
+        text-align: left;
+        padding-left: 30%;
+        padding-right: 30%;
     }
     
-    .title{
-        padding-top: 10rem;
-    }
-
-
- 
-
-    .boxcontainer{
-        padding-top: 10rem;
-    }
-
-    .portrait{
-        padding-top:50px;
-    }
-
-
- 
 }
