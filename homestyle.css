@@ -18,6 +18,11 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
+.containerHometext{
+    margin-left: 125px;
+    
+}
+
 
 nav ul{
 padding-top: 65px;
@@ -37,13 +42,6 @@ nav ul li a {
 
 nav .navbar-nav>.active> a{
     color: yellow
-}
-
-
-
-
-.title{
-    padding-top: 2rem;
 }
 
 .projektbox{
@@ -73,8 +71,69 @@ nav .navbar-nav>.active> a{
 
   /* kleines Zeug  */
 
-@media only screen and (max-width:768px){
+  .textUeberschrift{
+    padding-top: 50px;
+
+  }
+
+
+  a:link,a:visited{
+      text-decoration: none;
+      color: white;
+  }
+
+  .jumbotron{
+    width: 100%;
+    background-image: url("bild3.jpg");
+  }
+
+  .projektTitel1{
+    text-align: center;
+  }
+  .projektTitel2{   
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+  .projektTexthaufen{
+    text-align: left;
+    padding-left: 30%;
+    padding-right: 30%;
     
+  }
+
+  .projektTexthaufen{
+      max-width: 100%;
+      height:auto;
+  }
+
+  .projTitelBild{
+    display:block;
+    max-width: 100%;
+    height: auto;
+   
+}
+.navbar-collapse{
+    margin-top:-70px;
+    padding-right:0px;
+    text-align: right;
+   
+}
+
+.collapse{
+    margin-right:-100px;
+}
+
+
+
+ 
+@media only screen and (max-width:700px){
+    .jumbotron{
+        height: 600px;
+        background-size: contain;
+        background-repeat:no-repeat ;
+    }
     .navbar-brand{
         padding-left: 0px;
         padding-top: 0px;
@@ -89,15 +148,33 @@ nav .navbar-nav>.active> a{
         padding-top: 2px;
         padding-bottom: 2px;
         margin-bottom: 10px;
-        
 
     }
-     
+
+    .title{
+        padding-left: 16px;
+        
+    }
+
+    .textFaehigkeiten{
+        padding-left: 16px;
+    }
+   
+    
+    .portrait{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        width:max-content;
+        
+    }
+
     .container{
         margin: 0%;
         padding: 0%;
         max-width: 100%;
-
     }
     #projekt1{
         background-image: url("bild1.jpg");
@@ -113,8 +190,14 @@ nav .navbar-nav>.active> a{
 
 }
 /* großes Zeug  */
-@media only screen and (min-width:768px){
+@media only screen and (min-width:700px){
+   
 
+    .jumbotron{
+        height: 600px;
+        background-size: cover;
+        
+    }
     .navbar-brand{
         padding-left: 125px;
         padding-top: 65px;
@@ -133,6 +216,9 @@ nav .navbar-nav>.active> a{
         padding-top: 10rem;
     }
 
+    .portrait{
+        padding-top:50px;
+    }
 
 
  
