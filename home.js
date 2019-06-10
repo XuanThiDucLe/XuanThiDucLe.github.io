@@ -4,7 +4,7 @@ console.log(window);
 
 var texte = [{ titel: "Projekt1", text: "Text zu Projekt 1" }, { titel: "Projekt2", text: "Text zu Projekt 2" }, { titel: "Projekt3", text: "Text zu Projekt 3" }]
 
-if (window.matchMedia("(min-width:700px)").matches) {
+if (window.matchMedia("(min-width:915px)").matches) {
     window.onload = () => {
         
         for (let i = 0; i < texte.length; i++) {
