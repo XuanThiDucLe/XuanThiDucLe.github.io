@@ -17,7 +17,7 @@ if (window.matchMedia("(min-width:915px)").matches) {
       } else {
       //  document.getElementsByClassName("fixed-top")[0].style.padding = "300px";
         document.getElementById("navbarNav").style.marginTop =  "0px";
-        document.getElementById("navbarNav2").style.marginTop =  "-150px";
+       document.getElementById("navbarNav2").style.marginTop =  "-150px";
         document.getElementById("logo").style.marginTop =  "0px";
        
     
@@ -33,7 +33,6 @@ if (window.matchMedia("(min-width:915px)").matches) {
 
   }
 
-  // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {

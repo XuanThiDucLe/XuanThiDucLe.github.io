@@ -82,10 +82,14 @@ p {
 .navbar-nav {
     width: 100%;
     text-align: center;
-
+  
   }
+.navbar-nav  li {
+    float: none;
+    display: inline-block;
+  }
+  
 #navbarNav {
-    width:100%;
     padding-top: 0px;
     margin-top: 0px;
     transition: 0.4s;
@@ -142,6 +146,8 @@ nav .navbar-nav>.active>a {
 .ml-auto2, .mx-auto {
    /* margin-left: 10%;
     margin-right: 10%; */
+
+
     margin-top: -150px;
     transition: 0.4s;
 }
@@ -318,17 +324,6 @@ a:link, a:visited {
         padding-top: 20px;
         font-size: 40px;
     }
-
-    #navbarNav {
-        margin-right: -1%;
-    }
-
-    .ml-auto2, .mx-auto {
-        margin-left: 30%;
-        margin-right: 0%;
-      
-      }
-
     .title {
         padding-top: 10rem;
     }
@@ -346,21 +341,4 @@ a:link, a:visited {
     h1 {
         font-size: 41.02px;
     }
-
-}
-
-@media only screen and (min-width:1600px) {
-
-    #navbarNav {
-        margin-right: 0%;
-    }
-
-    .ml-auto2, .mx-auto {
-       margin-left: 36%;
-       margin-right: 10%;
-     
-     }
-
-   
-   
 }
