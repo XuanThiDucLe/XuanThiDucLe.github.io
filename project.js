@@ -8,13 +8,18 @@ if (window.matchMedia("(min-width:915px)").matches) {
       if (document.body.scrollTop > 545 || document.documentElement.scrollTop > 545) {
        // document.getElementsByClassName("fixed-top")[0].style.padding = "-30px";
        document.getElementById("navbarNav").style.marginTop =  "-30px";
+       document.getElementById("navbarNav2").style.marginTop =  "-30px";
        document.getElementById("logo").style.marginTop =  "-30px";
+     
+       
 
         //unten
       } else {
       //  document.getElementsByClassName("fixed-top")[0].style.padding = "300px";
         document.getElementById("navbarNav").style.marginTop =  "0px";
+        document.getElementById("navbarNav2").style.marginTop =  "-150px";
         document.getElementById("logo").style.marginTop =  "0px";
+       
     
         //oben 
       }
@@ -27,6 +32,22 @@ if (window.matchMedia("(min-width:915px)").matches) {
 
 
   }
+
+  // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 
 }

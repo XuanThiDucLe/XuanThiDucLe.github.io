@@ -5,49 +5,57 @@ body {
     background-color: #242E37;
 }
 
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px;
+    border-top: 1px solid rgb(253, 247, 247);
+}
+
+/*große Überschrift*/
+
 h1 {
-    font-family: "Open Sans";
-    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 23px;
+    padding-bottom: 5%;
+}
+
+/*Projekt name */
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 32.81px;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
     line-height: 23px;
 }
+
+/*Überschrift */
 
 h3 {
-    font-family: "Open Sans";
-    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26.25px;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
-    line-height: 23px;
+    line-height: 30px;
 }
+
+/*Fließtext*/
 
 p {
-    font-family: "Open Sans";
-    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
-    line-height: 23px;
-}
-
-blockquote {
-    font-family: "Open Sans";
-    font-size: 17px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 23px;
-}
-
-pre {
-    font-family: "Open Sans";
-    font-size: 11px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 23px;
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+    margin-top: 5%;
 }
 
 #background {
@@ -65,6 +73,8 @@ pre {
 
 .img-fluid {
     width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 /* Navbar*/
@@ -89,7 +99,7 @@ nav ul li a {
 }
 
 nav .navbar-nav>.active>a {
-    color: yellow
+    color: #FFD74A
 }
 
 .custom-toggler.navbar-toggler {
@@ -101,45 +111,68 @@ nav .navbar-nav>.active>a {
 }
 
 .navbar-brand {
-    color: yellow;
-    font-family: heisei-kaku-gothic-std, sans-serif;
+    color: #FFD74A;
+    font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: bold;
     transition: 0.4s;
 }
 
 .navbar-nav .nav-item:hover .nav-link {
-    color: yellow;
+    color: rgb(255, 216, 74);
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-nav .nav-item:hover .nav-link-disable {
+    color: rgba(95, 95, 95);
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-link {
+    display: block;
+    padding: 0;
+}
+
+.ml-auto2, .mx-auto {
+    margin-left: 29%;
+    margin-top: -150px;
+    transition: 0.4s;
+}
+
+nav .navbar-nav>.disabled>a {
+    color: rgba(95, 95, 95);
+    font-family: 'Roboto Slab', serif;
 }
 
 a:link, a:visited {
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.918);
+    font-family: 'Roboto Slab', serif;
+}
+
+.myBtn{
+    transition:  0.4s;
 }
 
 /* home */
 
-.containerHometext {
-    float:left;
-    margin-left: 10%;
-    width:100%;
-    text-align:left;
+.homeText {
+    float: left;
+    width: 100%;
 }
 
 .projektbox {
-    
+    float: right;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 2%;
+    margin-bottom: 10%;
     width: 53%;
     height: 70px;
     border-style: solid;
     border-width: 2px;
-    margin-left: 320px;
-    padding-left: 20px;
-    padding-top: 7px;
-    padding-bottom: 2px;
-    margin-bottom: 40px;
     font-size: 30px;
-    vertical-align: 30px;
-   
+    text-align: left;
 }
 
 .textUeberschrift {
@@ -150,7 +183,7 @@ a:link, a:visited {
 
 .jumbotron {
     width: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("bild3.jpg");
+    background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild3.jpg");
     background-color: yellow;
 }
 
@@ -164,15 +197,15 @@ a:link, a:visited {
     text-align: center;
 }
 
-.projektTitel2 {
+.projektTitel {
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 5%;
 }
 
 .projektTexthaufen {
     max-width: 100%;
     height: auto;
+    padding-top: 3%;
 }
 
 .projTitelBild {
@@ -181,7 +214,16 @@ a:link, a:visited {
     height: auto;
 }
 
+.information {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
 @media only screen and (max-width:915px) {
+    h1 {
+        padding-top: 10%;
+        font-size: 32.81px;
+    }
     html, body {
         overflow-x: hidden;
     }
@@ -225,6 +267,9 @@ a:link, a:visited {
         padding: 0%;
         max-width: 100%;
     }
+    .text {
+        margin-right: 2%;
+    }
     #projekt1 {
         background-image: url("bild1.jpg");
     }
@@ -243,6 +288,13 @@ a:link, a:visited {
         text-align: right;
     }
     .projektTexthaufen {
+        text-align: left;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .information {
         text-align: left;
         padding-left: 10%;
         padding-right: 10%;
@@ -274,7 +326,10 @@ a:link, a:visited {
     }
     .projektTexthaufen {
         text-align: left;
-        padding-left: 30%;
-        padding-right: 30%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    h1 {
+        font-size: 41.02px;
     }
 }
