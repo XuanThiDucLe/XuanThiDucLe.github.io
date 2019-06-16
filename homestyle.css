@@ -231,16 +231,26 @@ a:link, a:visited {
 
 /*video*/
 .center{
-    margin: 0 auto; width: 60%;
+    margin: 0 auto;
+    width: 60%;
 }
 
 #figmaImport{
-    width: 50%;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
     height: auto;
-    display: flex;
-    align-items: center;
+ 
+  
+    text-align: center;
   }
+
+iframe{
+    align-self: center;
+}
+
+.align-center {
+    text-align: center;
+}
 
 @media only screen and (max-width:915px) {
     h1 {
