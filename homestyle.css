@@ -66,7 +66,7 @@ p {
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
@@ -79,9 +79,13 @@ p {
 
 /* Navbar*/
 
+#navbarCol{
+    transition:0.3s;
+}
 .navbar-nav {
     width: 100%;
     text-align: center;
+    
 
   }
 #navbarNav {
@@ -89,6 +93,8 @@ p {
     padding-top: 0px;
     margin-top: 0px;
     transition: 0.4s;
+   
+    
 }
 
 nav ul {
@@ -122,6 +128,7 @@ nav .navbar-nav>.active>a {
     font-style: normal;
     font-weight: bold;
     transition: 0.4s;
+   
 }
 
 .navbar-nav .nav-item:hover .nav-link {
@@ -139,12 +146,7 @@ nav .navbar-nav>.active>a {
     padding: 0;
 }
 
-.ml-auto2, .mx-auto {
-   /* margin-left: 10%;
-    margin-right: 10%; */
-    margin-top: -150px;
-    transition: 0.4s;
-}
+
 
 nav .navbar-nav>.disabled>a {
     color: rgba(95, 95, 95);
@@ -186,8 +188,11 @@ a:link, a:visited {
 
 .jumbotron {
     width: 100%;
-    background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild3.jpg");
-    background-color: yellow;
+    background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
+     min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .col-12 {
@@ -221,6 +226,7 @@ a:link, a:visited {
     display: block;
     width: 96%;
     height: auto;
+    
 }
 
 .information {
@@ -252,6 +258,15 @@ iframe{
     text-align: center;
 }
 
+.parallax{
+
+min-height: 500px;
+background-attachment: fixed;
+background-image: url("bild5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
 @media only screen and (max-width:915px) {
     h1 {
         padding-top: 10%;
@@ -273,6 +288,12 @@ iframe{
         padding-top: 0px;
         font-size: 40px;
     }
+    .ml-auto2, .mx-auto {
+        /* margin-left: 10%;
+         margin-right: 10%; */
+         margin-top: 0px;
+         transition: 0.4s;
+     }
     .projektbox {
         width: 100%;
         height: 200px;
@@ -304,13 +325,20 @@ iframe{
         margin-right: 2%;
     }
     #projekt1 {
-        background-image: url("bild1.jpg");
+        background-image: url("bild2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #projekt2 {
-        background-image: url("bild2.jpg");
+        background-image: url("bild3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #projekt3 {
-        background-image: url("bild3.jpg");
+        background-image: url("bild4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
     .collapse {
         margin-right: -100px;
@@ -358,6 +386,7 @@ iframe{
         margin-right: 0%;
       
       }
+      
 
     .title {
         padding-top: 10rem;
@@ -384,6 +413,8 @@ iframe{
     #navbarNav {
         margin-right: 0%;
     }
+
+   
 
     .ml-auto2, .mx-auto {
        margin-left: 36%;
