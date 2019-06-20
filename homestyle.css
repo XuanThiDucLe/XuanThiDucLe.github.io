@@ -195,9 +195,18 @@ a:link, a:visited {
 
 /*Tahmen Container*/
 
-.jumbotron {
+.background1 {
     width: 100%;
     background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background2 {
+    width: 100%;
+    background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -237,6 +246,8 @@ a:link, a:visited {
     height: auto;
     
 }
+
+
 
 .information {
     padding-top: 10%;
@@ -451,6 +462,7 @@ background-size: cover;
         height: 600px;
         background-size: cover;
     }
+    
     nav ul {
         padding-right: 0px;
     }
