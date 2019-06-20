@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-  <title>Xuan Le - Prototyping lab</title>
+  <title>Xuan Le - test</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="homestyle.css">
-  <script src="project.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="homestyle.css">
+    <script src="project.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -26,26 +26,27 @@
 <body>
 
   <nav class="navbar navbar-expand-lg fixed-top" id="navbarCol">
-    <a class="navbar-brand" id="logo" href="#">X.L.</a>
+    <a class="navbar-brand" id="logo" href="home.html">X.L.</a>
     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" >
-        <ul class="nav navbar-nav ml-auto2" id="navbarNav2">
-            <li class="nav-item">
-              <a class="nav-link" href="project2.html">previous</a>
+    <div class="collapse navbar-collapse"id="navbarNav" >
+        <ul class="nav navbar-nav ml-auto2 hide" id="navbarNav2">
+          <li class="nav-item">
+            <a class="nav-link" href="project2.html">previous</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#" onclick="topFunction()" id="myBtn" title="Go to top">top</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" onclick="topFunction()" id="myBtn" title="Go to top">top</a>
-              </li>
-              <li class="nav-item disabled">
-                  <a class="nav-link-disable">next</a>
-                </li>
-          </ul>
+                <a class="nav-link" href="project1.html">next</a>
+              </li> 
         
-      <ul class="nav navbar-nav ml-auto" id="navbarNav">
+        </ul>
+        
+      <ul class="nav navbar-nav ml-auto" >
         <li class="nav-item">
           <a class="nav-link" href="home.html">Home</a>
         </li>
@@ -64,8 +65,9 @@
     <div class="container-fluid projTitelBild">
       <div class="row">
 
-        <div class="col-12 projektTitel">
-          <h2>Novo</h2>
+        <div class="col-md-6 col-sm-12 projektTitel">
+          <h1>Novo</h1>
+          <hr>
           <p class="text">
             Daher werden sie als staatliches </br> zu den
             privaten Universitäten  der Ivy League betrachtet.
@@ -78,7 +80,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 projektTexthaufen">
-          <h3> stuff zum projekt </h3>
+          <h3> Stuff zum projekt </h3>
 
           <p class="text">
             In den 1980er Jahren wurde der Begriff der Public Ivies in den USA geprägt. Der Ausdruck bezieht sich auf
@@ -95,7 +97,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <img class="img-fluid parallax">
+          <img class="img-fluid" src="bild5.jpg">
         </div>
       </div>
     </div>
@@ -116,13 +118,75 @@
   
         </div>
       </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <img class="img-fluid proj2Bild1" src="bild4.jpg">
+          </div>
+        </div>
+      </div>
 
-     
+    <div class="container">
+      <div class="row information">
+        <div class="col-md-4 col-sm-12">
+          <h3>
+          Team
+          </h3>
+         <p>
+           
+           Xuan Thi Duc Le </br>
+           Jonathan Bruckbauer
 
+         </p>
+        </div>
+
+        <div class="col-md-4 col-sm-12 ">
+            <h3>
+            Dozent 
+            </h3>
+           <p>
+             
+             Name Dozent </br>
+             Name des zweiten Dozenten
+  
+           </p>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+              <h3>
+              Stuff 
+              </h3>
+             
+             <p>
+               Was sonst so hinkommt</br>
+               Echten Keine Anhung </br>
+               vielleicht Materialien oder Programme
+              
+    
+             </p>
+            </div>
+
+
+          
+      </div>
+
+    </div>
+
+    <div class="container">
+        
+      <div class="row">
+        <div class="col-12">
+            <hr>
+            <p style="text-align:center">Copyright © Xuan Thi Duc Le 2019</p>
+        </div>
+        
+    
+      </div>  
       
+    </div>
   </div>
   </div>
-
+  
 
   </div>
 

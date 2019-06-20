@@ -7,18 +7,13 @@ if (window.matchMedia("(min-width:915px)").matches) {
     function scrollFunction() {
       if (document.body.scrollTop > 545 || document.documentElement.scrollTop > 545) {
        // document.getElementsByClassName("fixed-top")[0].style.padding = "-30px";
-       document.getElementById("navbarNav").style.marginTop =  "-15px";
-       document.getElementById("navbarNav2").style.marginTop =  "-15px";
-       document.getElementById("logo").style.marginTop =  "-25px";
+       document.getElementById("navbarNav").style.marginTop =  "0px";
+       document.getElementById("navbarNav2").style.marginTop =  "0px";
+       document.getElementById("logo").style.marginTop =  "-15px";
        document.getElementById("logo").style.fontSize =  "26px";
        document.getElementById("navbarCol").style.backgroundColor=  "#242E37";
-
-       
-       
-     
-       
-
-        //unten
+      
+       //unten
       } else {
       //  document.getElementsByClassName("fixed-top")[0].style.padding = "300px";
         document.getElementById("navbarNav").style.marginTop =  "0px";
