@@ -215,6 +215,7 @@ a:link, a:visited {
     text-align: left;
 }
 
+
 .textUeberschrift {
     padding-top: 50px;
 }
@@ -398,13 +399,16 @@ iframe {
     .hide {
         display: none;
     }
+
+    /*auch für mailbutton*/
     .nextButton {
         text-align: center;
-        width: 70%;
+        width: 50%;
         border-style: solid;
         border-width: 2px;
-        margin: 15%;
+        margin: 25%;
     }
+
 }
 
 @media only screen and (min-width:995px) {
@@ -447,6 +451,14 @@ iframe {
         text-align: left;
         padding-left: 20%;
         padding-right: 20%;
+    }
+    /*auch für mailbutton */
+    .nextButton {
+        text-align: center;
+        width: 40%;
+        border-style: solid;
+        border-width: 2px;
+      
     }
   
 }
@@ -499,9 +511,8 @@ iframe {
 
 /*big stuff*/
 
-@media only screen and (min-width:3000px) {
+@media only screen and (min-width:1900px) {
      .jumbotron {
-        overflow-x: scroll;
         background-size: cover;
     }
 

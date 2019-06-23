@@ -1,7 +1,3 @@
-console.log("hello world");
-
-console.log(window);
-
 var texte = [{ titel: "Projekt1", text: "Text zu Projekt 1" }, { titel: "Projekt2", text: "Text zu Projekt 2" }, { titel: "Projekt3", text: "Text zu Projekt 3" }]
 
 if (window.matchMedia("(min-width:915px)").matches) {
@@ -13,7 +9,7 @@ if (window.matchMedia("(min-width:915px)").matches) {
             let proj = document.getElementById(ele);
             let homeText = document.getElementById("homeText");
             let notActive = "white";
-            let active = { border: "yellow", background: "yellow" };
+            let active = { border: "#FFD74A", background: "#FFD74A" };
             let oldhomeText = homeText.cloneNode(true);
             console.log(ele);
             console.log(texte[i].titel);
@@ -25,7 +21,6 @@ if (window.matchMedia("(min-width:915px)").matches) {
                 proj.style.borderColor = active.border;
                 proj.style.background = active.background;
                 proj.style.color = "#242e37";
-                console.log(pic)
                 document.getElementById("background").style.backgroundImage = pic;
                 document.getElementById("background").style.opacity = 0.5;
                 homeText.children[0].textContent = texte[i].titel;
