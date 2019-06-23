@@ -2,7 +2,7 @@ body {
     /* background-color: #242e37; */
     color: white;
     transition: background-image 0.5s linear;
-    background-color: #242E37;
+    background-color: #0F1217;
 }
 
 hr {
@@ -30,32 +30,54 @@ h2 {
     font-size: 32.81px;
     font-style: normal;
     font-variant: normal;
-    font-weight: bold;
+    font-weight: 300;
     line-height: 23px;
 }
 
-/*Überschrift */
+/*unter Überschrift */
 
 h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 26.25px;
     font-style: normal;
     font-variant: normal;
-    font-weight: bold;
+    font-weight: 300;
     line-height: 30px;
+    letter-spacing: -.022em;
 }
 
 /*Fließtext*/
 
-p {
-    font-family: 'Roboto', sans-serif;
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    font-style: normal;
+    line-height: 24px;
+    margin: 24px 0;
+}
+/* p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    color: white;
+    letter-spacing: .02em;
+} */
+
+h5 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: 21px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.47059;
     letter-spacing: -.022em;
     margin-top: 5%;
+    color: white;
 }
 
 #background {
@@ -66,7 +88,7 @@ p {
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
@@ -77,26 +99,15 @@ p {
     padding-bottom: 2%;
 }
 
+img {
+    width: 500px;
+    height: auto;
+}
+
 /* Navbar*/
 
 .navbar-nav {
-    width: 100%;
-    text-align: center;
-  
-  }
-.navbar-nav  li {
-    float: none;
-    display: inline-block;
-  }
-  
-#navbarNav {
-    padding-top: 0px;
-    margin-top: 0px;
-    transition: 0.4s;
-}
-
-nav ul {
-    padding-right: 80px;
+    text-align: right;
 }
 
 nav ul li {
@@ -143,13 +154,13 @@ nav .navbar-nav>.active>a {
     padding: 0;
 }
 
-.ml-auto2, .mx-auto {
-   /* margin-left: 10%;
-    margin-right: 10%; */
+.portrait {
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
 
-
-    margin-top: -150px;
-    transition: 0.4s;
+.aboutMe {
+    margin-top: 250px;
 }
 
 nav .navbar-nav>.disabled>a {
@@ -172,11 +183,10 @@ a:link, a:visited {
 
 .projektbox {
     float: right;
-    width: 100%;
     padding-left: 5%;
     padding-top: 2%;
     margin-bottom: 10%;
-    width: 53%;
+    width: 70%;
     height: 70px;
     border-style: solid;
     border-width: 2px;
@@ -190,10 +200,22 @@ a:link, a:visited {
 
 /*Tahmen Container*/
 
-.jumbotron {
+.background1 {
     width: 100%;
-    background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild3.jpg");
-    background-color: yellow;
+    background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background2 {
+    width: 100%;
+    background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .col-12 {
@@ -204,6 +226,12 @@ a:link, a:visited {
 
 .projektTitel1 {
     text-align: center;
+}
+
+.projektTitel2 {
+    text-align: center;
+    margin-top: 8%;
+    padding: 5%;
 }
 
 .projektTitel {
@@ -228,7 +256,39 @@ a:link, a:visited {
     padding-bottom: 10%;
 }
 
-@media only screen and (max-width:915px) {
+/*video*/
+
+.center {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#figmaImport {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+}
+
+iframe {
+    align-self: center;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.parallax {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-image: url("bild5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*smartphone*/
+
+@media only screen and (max-width:995px) {
     h1 {
         padding-top: 10%;
         font-size: 32.81px;
@@ -244,10 +304,24 @@ a:link, a:visited {
         background-size: cover;
         background-repeat: no-repeat;
     }
+    nav ul {
+        padding-right: 0px;
+    }
+    .navbar-toggler {
+        border-radius: 0%;
+    }
     .navbar-brand {
         padding-left: 0px;
         padding-top: 0px;
         font-size: 40px;
+    }
+    .ml-auto2, .mx-auto {
+        /* margin-left: 10%;
+         margin-right: 10%; */
+        margin-left: 15%;
+        margin-right: 0%;
+        margin-top: 0px;
+        transition: 0.4s;
     }
     .projektbox {
         width: 100%;
@@ -263,14 +337,6 @@ a:link, a:visited {
     .textFaehigkeiten {
         padding-left: 16px;
     }
-    .portrait {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
-        margin-top: 50px;
-        width: max-content;
-    }
     .container {
         margin: 0%;
         padding: 0%;
@@ -280,21 +346,19 @@ a:link, a:visited {
         margin-right: 2%;
     }
     #projekt1 {
-        background-image: url("bild1.jpg");
+        background-image: url("bild2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #projekt2 {
-        background-image: url("bild2.jpg");
+        background-image: url("bild3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     #projekt3 {
-        background-image: url("bild3.jpg");
-    }
-    .collapse {
-        margin-right: -100px;
-    }
-    .navbar-collapse {
-        margin-top: -70px;
-        padding-right: 0px;
-        text-align: right;
+        background-image: url("bild4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .projektTexthaufen {
         text-align: left;
@@ -310,28 +374,53 @@ a:link, a:visited {
         padding-top: 10%;
         padding-bottom: 10%;
     }
+    .hide {
+        display: none;
+    }
+    .nextButton {
+        text-align: center;
+        width: 70%;
+        border-style: solid;
+        border-width: 2px;
+        margin: 15%;
+    }
 }
 
-/* großes Zeug  */
-
-@media only screen and (min-width:915px) {
+@media only screen and (min-width:995px) {
     .jumbotron {
         height: 600px;
         background-size: cover;
+    }
+    nav ul {
+        padding-right: 0px;
     }
     .navbar-brand {
         padding-left: 125px;
         padding-top: 20px;
         font-size: 40px;
     }
+    .navbar-nav {
+        width: auto;
+    }
+    #navbarCol {
+        transition: 0.3s;
+    }
+    #navbarNav {
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 0px;
+        transition: 0.4s;
+        margin-right: -1%;
+    }
+    .ml-auto2, .mx-auto {
+        margin-left: 15%;
+        margin-right: 0%;
+    }
     .title {
         padding-top: 10rem;
     }
     .boxcontainer {
         padding-top: 10rem;
-    }
-    .portrait {
-        padding-top: 50px;
     }
     .projektTexthaufen {
         text-align: left;
@@ -340,5 +429,78 @@ a:link, a:visited {
     }
     h1 {
         font-size: 41.02px;
+    }
+}
+
+/* Macbook*/
+
+@media only screen and (min-width:1200px) {
+    .jumbotron {
+        height: 600px;
+        background-size: cover;
+    }
+    nav ul {
+        padding-right: 0px;
+    }
+    .navbar-brand {
+        padding-left: 125px;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+    .navbar-nav {
+        width: 100%;
+    }
+    #navbarCol {
+        transition: 0.3s;
+    }
+    #navbarNav {
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 0px;
+        transition: 0.4s;
+        margin-right: -1%;
+    }
+    .ml-auto2, .mx-auto {
+        margin-left: 30%;
+        margin-right: 0%;
+    }
+    .title {
+        padding-top: 10rem;
+    }
+    .boxcontainer {
+        padding-top: 10rem;
+    }
+    .projektTexthaufen {
+        text-align: left;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    h1 {
+        font-size: 41.02px;
+    }
+}
+
+/*big stuff*/
+
+@media only screen and (min-width:3000px) {
+    nav ul {
+        padding-right: 0px;
+    }
+    #navbarNav {
+        width: 100%;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-right: 0%;
+        transition: 0.4s;
+    }
+    .navbar-nav {
+        width: 100%;
+    }
+    #navbarCol {
+        transition: 0.3s;
+    }
+    .ml-auto2, .mx-auto {
+        margin-left: 36%;
+        margin-right: 10%;
     }
 }
