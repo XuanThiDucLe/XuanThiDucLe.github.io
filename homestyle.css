@@ -23,18 +23,19 @@ hr {
 /*große Überschrift*/
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
     line-height: 2.441rem;
     padding-bottom: 5%;
+    color:red;
 }
 
 /*Projekt name */
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 1.953rem;
     font-style: normal;
     font-variant: normal;
@@ -45,7 +46,7 @@ h2 {
 /*unter Überschrift */
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 1.563rem;
     font-style: normal;
     font-variant: normal;
@@ -499,6 +500,11 @@ iframe {
 /*big stuff*/
 
 @media only screen and (min-width:3000px) {
+     .jumbotron {
+        height: 600px;
+        background-size: cover;
+    }
+
     nav ul {
         padding-right: 0px;
     }
