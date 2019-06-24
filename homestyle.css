@@ -8,7 +8,9 @@ body {
     transition: background-image 0.5s linear;
     background-color: #0F1217;
     margin: 0;
+    font-size: 1em;
 }
+
 
 
 hr {
@@ -59,11 +61,11 @@ h3 {
 
 h4 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.563rem;
     font-style: normal;
     font-variant: normal;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 1.5;
     letter-spacing: -.022em;
 }
 
@@ -73,32 +75,9 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5;
     margin: 24px;
-}
-/* p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.7;
-    letter-spacing: normal;
-    color: white;
-    letter-spacing: .02em;
-} */
-
-h5 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    font-size: 21px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    line-height: 1.47059;
-    letter-spacing: -.022em;
-    margin-top: 5%;
-    color: white;
 }
 
 #background {
@@ -112,6 +91,11 @@ h5 {
     background-size: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+}
+
+.row{
+    margin-top:   ;
+    margin-bottom: ;
 }
 
 .img-fluid {
@@ -141,7 +125,7 @@ nav ul li a {
 }
 
 nav .navbar-nav>.active>a {
-    color: #FFD74A
+    color: #FFD74A;
 }
 
 .custom-toggler.navbar-toggler {
@@ -175,14 +159,12 @@ nav .navbar-nav>.active>a {
     padding: 0;
 }
 
-.portrait {
-    margin-top: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
 
-.aboutMe {
-    margin-top: 250px;
-}
+
 
 nav .navbar-nav>.disabled>a {
     color: rgba(95, 95, 95);
@@ -222,23 +204,7 @@ a:link, a:visited {
 
 /*Tahmen Container*/
 
-.background1 {
-    width: 100%;
-    background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.background2 {
-    width: 100%;
-    background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .col-12 {
     padding: 0px;
@@ -301,12 +267,15 @@ iframe {
 }
 
 .parallax {
+    
     min-height: 500px;
     background-attachment: fixed;
     background-image: url("bild5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 /*smartphone*/
 
@@ -409,6 +378,37 @@ iframe {
         margin: 25%;
     }
 
+    .portrait {
+        margin-top: 0.625rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    }
+    
+    .aboutMe {
+        margin-top: 0.625rem;
+        margin-left: 0.625rem;
+    }
+
+    .skill{
+        margin-top: 0.625rem;
+        margin-left: 0.625rem;
+    }
+
+    .background1 {
+        width: 100%;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(36, 46, 55)
+    }
+    
+    .background2 {
+        width: 100%;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(36, 46, 55)
+    }
+
 }
 
 @media only screen and (min-width:995px) {
@@ -435,11 +435,12 @@ iframe {
         padding-top: 0px;
         margin-top: 0px;
         transition: 0.4s;
-        margin-right: -1%;
+      /*  margin-right: -1%; */
     }
     .ml-auto2, .mx-auto {
         margin-left: 15%;
         margin-right: 0%;
+        margin-top: -50%;
     }
     .title {
         padding-top: 10rem;
@@ -460,12 +461,42 @@ iframe {
         border-width: 2px;
       
     }
-  
+
+    .portrait {
+        margin-top: 6.25rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    }
+    
+    .aboutMe {
+        margin-top: 10.625rem;
+    }
+    
+    .skill{
+        margin-top: 3.625rem;
+        margin-left: 0.625rem;
+    }
+
+    .background1 {
+        width: 100%;
+        background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
+        min-height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .background2 {
+        width: 100%;
+        background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4.jpg");
+        min-height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 /* Macbook*/
 
 @media only screen and (min-width:1200px) {
+   
     .jumbotron {
         height: 600px;
         background-size: cover;
@@ -489,7 +520,7 @@ iframe {
         padding-top: 0px;
         margin-top: 0px;
         transition: 0.4s;
-        margin-right: -1%;
+      /*  margin-right: -1%; */
     }
     .ml-auto2, .mx-auto {
         margin-left: 30%;
@@ -505,6 +536,38 @@ iframe {
         text-align: left;
         padding-left: 20%;
         padding-right: 20%;
+    }
+
+    .portrait {
+        margin-top: 6.25rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    }
+    
+    .aboutMe {
+        margin-top: 15.625rem;
+    }
+
+    .skill{
+        margin-top: 6.25rem;
+        margin-left: 0.625rem;
+        margin-bottom: 6.25rem;
+    }
+    .background1 {
+        width: 100%;
+        background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .background2 {
+        width: 100%;
+        background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
   
 }
@@ -535,5 +598,38 @@ iframe {
     .ml-auto2, .mx-auto {
         margin-left: 36%;
         margin-right: 10%;
+    }
+
+    .portrait {
+        margin-top: 6.25rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    }
+    
+    .aboutMe {
+        margin-top: 15.625rem;
+    }
+
+    .skill{
+        margin-top: 6.25rem;
+        margin-left: 0.625rem;
+        margin-bottom: 6.25rem;
+    }
+
+    .background1 {
+        width: 100%;
+        background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .background2 {
+        width: 100%;
+        background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
