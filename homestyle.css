@@ -276,7 +276,7 @@ iframe {
 
 /*smartphone*/
 
-@media only screen and (max-width:995px) {
+@media only screen and (max-width:1000px) {
     h1 {
         padding-top: 10%;
         font-size: 32.81px;
@@ -317,10 +317,13 @@ iframe {
         border-width: 0px;
         padding-top: 2px;
         padding-bottom: 2px;
+        padding-right: 50%;
         margin-bottom: 10px;
+        
     }
     .title {
         padding-left: 16px;
+        
     }
     .textFaehigkeiten {
         padding-left: 16px;
@@ -347,6 +350,7 @@ iframe {
         background-image: url("bild4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+       
     }
     .projektTexthaufen {
         text-align: left;
@@ -395,7 +399,7 @@ iframe {
         min-height: 300px;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: rgb(36, 46, 55)
+        background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2sm.jpg");
     }
     
     .background2 {
@@ -403,12 +407,12 @@ iframe {
         min-height: 300px;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: rgb(36, 46, 55)
+        background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4sm.jpg");
     }
 
 }
 
-@media only screen and (min-width:995px) {
+@media only screen and (min-width:1000px) {
     .jumbotron {
         height: 600px;
         background-size: cover;
@@ -422,8 +426,10 @@ iframe {
         font-size: 40px;
     }
     .navbar-nav {
-        width: auto;
+       /* width: auto; */
+        padding-right: 0.75rem;
     }
+    
     #navbarCol {
         transition: 0.3s;
     }
@@ -492,7 +498,7 @@ iframe {
 
 /* Macbook*/
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1210px) {
    
     .jumbotron {
         height: 600px;
@@ -507,13 +513,14 @@ iframe {
         font-size: 40px;
     }
     .navbar-nav {
-        width: 100%;
+       /* width: 100%; */
+       padding-right: 0.75rem;
     }
     #navbarCol {
         transition: 0.3s;
     }
     #navbarNav {
-        width: 100%;
+        width: 100%; 
         padding-top: 0px;
         margin-top: 0px;
         transition: 0.4s;
@@ -587,7 +594,7 @@ iframe {
         transition: 0.4s;
     }
     .navbar-nav {
-        width: 100%;
+        width: 100%; 
     }
     #navbarCol {
         transition: 0.3s;
