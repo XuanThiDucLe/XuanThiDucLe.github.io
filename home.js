@@ -19,12 +19,12 @@ if (window.matchMedia("(min-width:915px)").matches) {
             console.log(texte[i].titel);
             
 
-            let oldColor = document.getElementById("background").style.backgroundImage;
-
+           // let oldColor = document.getElementById("background").style.backgroundImage;
+           let oldColor = "#0F1217";
             proj.addEventListener("mouseover", () => {
                 proj.style.borderColor = active.border;
                 proj.style.background = active.background;
-                proj.style.color = "#242e37";
+                proj.style.color = "#0F1217";
                 document.getElementById("background").style.backgroundImage = pic;
                 document.getElementById("background").style.opacity = 0.5;
                 homeText.children[0].textContent = texte[i].titel;

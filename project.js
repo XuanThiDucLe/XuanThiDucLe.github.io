@@ -11,7 +11,8 @@ if (window.matchMedia("(min-width:915px)").matches) {
        document.getElementById("navbarNav2").style.marginTop =  "0px";
        document.getElementById("logo").style.marginTop =  "-15px";
        document.getElementById("logo").style.fontSize =  "26px";
-       document.getElementById("navbarCol").style.backgroundColor=  "#242E37";
+       document.getElementById("navbarCol").style.backgroundColor=  "#0F1217";
+       document.getElementById("navbarCol").style.boxShadow= "0px 5px 20px black";
       
        //unten
       } else {
@@ -21,6 +22,7 @@ if (window.matchMedia("(min-width:915px)").matches) {
         document.getElementById("logo").style.marginTop =  "0px";
         document.getElementById("logo").style.fontSize =  "40px";
         document.getElementById("navbarCol").style.backgroundColor=  "transparent";
+        document.getElementById("navbarCol").style.boxShadow=  "none";
     
         //oben 
       }
@@ -50,15 +52,5 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
-
-
-
-
-
-
-
-
-
 
 }
