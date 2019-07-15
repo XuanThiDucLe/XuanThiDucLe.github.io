@@ -1,12 +1,12 @@
 var texte = [
-{ titel: "novo", text: "Ein personalisierter Freizeit-Routenplaner. Dieser Routenplaner integriert Ladestationen in die Route, sofern der E-Bike oder Pedelec Akku nicht ausreicht, um das Ziel zu erreichen." }, 
-{ titel: "blob", text: "Text zu Projekt 2" }, 
-{ titel: "Prototyping Lab", text: "Text zu Projekt 3" }
+    { titel: "novo", text: "Ein personalisierter Freizeit-Routenplaner. Dieser Routenplaner integriert Ladestationen in die Route, sofern der E-Bike oder Pedelec Akku nicht ausreicht, um das Ziel zu erreichen." },
+    { titel: "blob", text: "Text zu Projekt 2" },
+    { titel: "Prototyping Lab", text: "Text zu Projekt 3" }
 ]
 
 if (window.matchMedia("(min-width:915px)").matches) {
     window.onload = () => {
-        
+
         for (let i = 0; i < texte.length; i++) {
             let ele = "projekt" + (i + 1);
             let pic = "url('bild" + (i + 2) + ".jpg')";
@@ -17,10 +17,11 @@ if (window.matchMedia("(min-width:915px)").matches) {
             let oldhomeText = homeText.cloneNode(true);
             console.log(ele);
             console.log(texte[i].titel);
-            
 
-           // let oldColor = document.getElementById("background").style.backgroundImage;
-           let oldColor = "#0F1217";
+            projekt1= document.getElementById(projekt1);
+            projekt1.children[0].textContent = "stuff";
+            // let oldColor = document.getElementById("background").style.backgroundImage;
+            let oldColor = "#0F1217";
             proj.addEventListener("mouseover", () => {
                 proj.style.borderColor = active.border;
                 proj.style.background = active.background;
@@ -45,7 +46,7 @@ if (window.matchMedia("(min-width:915px)").matches) {
 
             });
         }
-     
+
 
     }
 
