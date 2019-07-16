@@ -666,31 +666,23 @@ iframe {
 .example-post {
     /* background-color: #242e37; */
      position: relative;
- 
 }
 
-.example-post p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-.example-post a {
-  color: #607D8B;
-}
 .example-post:before {
     content: "";
     display: block;
- background: linear-gradient(to right top, #CDDC39 0%, #03A9F4 50%, #e6f0f5 50%);
-
+    background: linear-gradient(to right top, #CDDC39 0%, #03A9F4 50%, #e6f0f5 50%);
     height: calc(100% - 100vh + 6px);
     width: 100%;
     position: absolute;
+    
     top: 0;
     left: 0;
 }
 .example-post:after {
     content: "";
     display: block;
-    background: #e6f0f5;
+    background: #0F1217;
     height: calc(100vh - 6px);
     width: 100%;
     position: -webkit-sticky;
@@ -698,17 +690,10 @@ iframe {
     bottom: 0;
     left: 0;
 }
-code {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 3px 5px;
-    font-size: 14px;
-}
+
 .entry-content {
-    max-width: 790px;
-    margin: 0 auto;  
+    
     position: relative;
     z-index: 1;
     margin-bottom: calc(-100vh + 6px);
-    padding: 0 15px;
 }
