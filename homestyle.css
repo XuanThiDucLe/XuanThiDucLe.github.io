@@ -661,39 +661,3 @@ iframe {
         background-size: cover;
     }
 }
-
-
-.example-post {
-    /* background-color: #242e37; */
-     position: relative;
-}
-
-.example-post:before {
-    content: "";
-    display: block;
-    background: linear-gradient(to right top, #CDDC39 0%, #03A9F4 50%, #e6f0f5 50%);
-    height: calc(100% - 100vh + 6px);
-    width: 100%;
-    position: absolute;
-    
-    top: 0;
-    left: 0;
-}
-.example-post:after {
-    content: "";
-    display: block;
-    background: #0F1217;
-    height: calc(100vh - 6px);
-    width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 0;
-    left: 0;
-}
-
-.entry-content {
-    
-    position: relative;
-    z-index: 1;
-    margin-bottom: calc(-100vh + 6px);
-}
