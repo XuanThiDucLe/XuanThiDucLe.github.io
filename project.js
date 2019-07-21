@@ -56,9 +56,7 @@ function topFunction() {
 
 }
 
-
-
-//scroll spy
+//scroll spy 
 
 $(document).ready(function(){
     
@@ -112,3 +110,4 @@ $(document).ready(function(){
       });
   }
 });
+
