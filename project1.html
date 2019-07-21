@@ -15,9 +15,6 @@
   <style>
     @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
   </style>
-
-  <link rel="stylesheet" href="homestyle.css">
-  <script src="project.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -32,11 +29,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" href="homestyle.css">
+  <script src="project.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+    <!-- -------------------------------------- -->
+    <progress value="0" id="progressBar" class="flat">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+    <!-- -------------------------------------- -->
 
   <nav class="navbar navbar-expand-lg fixed-top" id="navbarCol">
     <a class="navbar-brand" id="logo" href="index.html">X.L.</a>
@@ -72,12 +77,6 @@
     </div>
 
   </nav>
-
-   <!-- scroll spy -->
-  
-
- <!-- scroll spy -->
-
 
   <div class="jumbotron background1">
     <div class="container-fluid projTitelBild">

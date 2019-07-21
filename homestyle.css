@@ -693,7 +693,8 @@ progress {
     border: none;
   
     /* For Firefox/IE10+ */
-    background-color: rgba(15, 18, 23, 0.4);
+    /* background-color: rgba(15, 18, 23, 0.4); */
+    background-color: rgba(15, 18, 23, 1);
   
     /* For IE10+, color of the progress bar */
     color: rgb(255, 216, 74);

@@ -12,8 +12,10 @@ if (window.matchMedia("(min-width:915px)").matches) {
        document.getElementById("logo").style.marginTop =  "-15px";
        document.getElementById("logo").style.fontSize =  "26px";
       //document.getElementById("navbarCol").style.backgroundColor=  "#0F1217";
-      document.getElementById("navbarCol").style.backgroundColor=  "rgba(15, 18, 23, 0.6)";
-       document.getElementById("navbarCol").style.boxShadow= "0px 5px 20px black";
+     // document.getElementById("navbarCol").style.backgroundColor=  "rgba(15, 18, 23, 0.6)";
+      document.getElementById("navbarCol").style.backgroundColor=  "rgba(15, 18, 23, 1)";
+
+      document.getElementById("navbarCol").style.boxShadow= "0px 5px 20px black";
       
        //unten
       } else {
