@@ -696,7 +696,7 @@ progress {
     background-color: rgba(15, 18, 23, 0.4);
   
     /* For IE10+, color of the progress bar */
-    color: yellow;
+    color: rgb(255, 216, 74);
 
     z-index: 10;
   }
@@ -706,35 +706,35 @@ progress {
   }
   
   .flat::-webkit-progress-value {
-    background-color: yellow;
+    background-color: rgb(255, 216, 74);
   }
   
   .flat::-moz-progress-bar {
-    background-color: yellow;
+    background-color: rgb(255, 216, 74);
   }
   
   .single::-webkit-progress-value {
     background-color: transparent;
-    background-image: -webkit-linear-gradient(left, transparent, red);
+    background-image: -webkit-linear-gradient(left, transparent, rgb(255, 216, 74));
   }
   
   .single::-moz-progress-bar {
     background-color: transparent;
-    background-image: -moz-linear-gradient(left, transparent, red);
+    background-image: -moz-linear-gradient(left, transparent, rgb(255, 216, 74));
   }
   
   .multiple::-webkit-progress-value {
     background-image: -webkit-linear-gradient(-45deg, 
                                  transparent 33%, rgba(0, 0, 0, .1) 33%, 
                                  rgba(0,0, 0, .1) 66%, transparent 66%),
-                        -webkit-linear-gradient(left, green, red);
+                        -webkit-linear-gradient(left, rgb(255, 216, 74), rgb(255, 216, 74));
   }
   
   .multiple::-moz-progress-bar {
     background-image: -moz-linear-gradient(-45deg, 
                                  transparent 33%, rgba(0, 0, 0, .1) 33%, 
                                  rgba(0,0, 0, .1) 66%, transparent 66%),
-                        -moz-linear-gradient(left, green, red);
+                        -moz-linear-gradient(left, rgb(255, 216, 74), rgb(255, 216, 74));
   }
   
   .progress-container {
@@ -748,7 +748,7 @@ progress {
   }
   
   .progress-bar {
-    background-color: yellow;
+    background-color: rgb(255, 216, 74);
     width: 50%;
     display: block;
     height: inherit;
