@@ -19,9 +19,9 @@ if (window.matchMedia("(min-width:915px)").matches) {
             console.log(texte[i].titel);
 
             projekt1= document.getElementById(projekt1);
-            projekt1.children[0].textContent = "stuff";
             // let oldColor = document.getElementById("background").style.backgroundImage;
             let oldColor = "#0F1217";
+
             proj.addEventListener("mouseover", () => {
                 proj.style.borderColor = active.border;
                 proj.style.background = active.background;
@@ -30,7 +30,6 @@ if (window.matchMedia("(min-width:915px)").matches) {
                 document.getElementById("background").style.opacity = 0.5;
                 homeText.children[0].textContent = texte[i].titel;
                 homeText.children[1].textContent = texte[i].text;
-
             });
 
             proj.addEventListener("mouseout", () => {
@@ -42,8 +41,6 @@ if (window.matchMedia("(min-width:915px)").matches) {
                 proj.style.color = notActive;
                 document.getElementById("background").style.opacity = 0.0;
                 //console.log(oldhomeText.children[0].textContent);
-
-
             });
         }
 
