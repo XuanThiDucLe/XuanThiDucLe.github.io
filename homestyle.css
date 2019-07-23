@@ -160,8 +160,15 @@ p {
     padding-bottom: 2%;
 }
 
-img {
+.img {
     width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videoformat{
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -309,7 +316,13 @@ a:link, a:visited {
 
 .center {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
+    height: 550px;
+}
+
+.center2 {
+    margin: 0 auto;
+    width: 80%;
 }
 
 #figmaImport {
@@ -335,12 +348,26 @@ iframe {
     background-size: cover;
 }
 
+.parallax1 {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-image: url("skizze.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .projWireframes{
     width: 80%;
     height: auto;
 }
 
 
+.tryit{
+    text-align: center;
+    width: 40%;
+    border-style: solid;
+    border-width: 2px;
+}
 
 /*smartphone*/
 
