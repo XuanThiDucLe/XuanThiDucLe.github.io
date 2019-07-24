@@ -317,7 +317,13 @@ a:link, a:visited {
 .center {
     margin: 0 auto;
     width: 80%;
-    height: 550px;
+    
+}
+
+.centerVideo {
+    margin: 0 auto;
+    width: 80%;
+    height: 650px; 
 }
 
 #figmaImport {
