@@ -1,7 +1,7 @@
 var texte = [
     { titel: "novo", text: "Ein personalisierter Freizeit-Routenplaner. Dieser Routenplaner integriert Ladestationen in die Route, sofern der E-Bike oder Pedelec Akku nicht ausreicht, um das Ziel zu erreichen." },
-    { titel: "blob", text: "Text zu Projekt 2" },
-    { titel: "Prototyping Lab", text: "Text zu Projekt 3" }
+    { titel: "blob", text: "Ein interaktiver Spiegel welcher den Betrachter als Luftblasen in eine Unterwasserwelt eintauchen lässt. " },
+    { titel: "Prototyping Lab", text: "Wie sieht das perfekte IoT Prototypen Lab aus? Dieser Frage gehen wir mit Hilfe von Design Thinking nach.  " }
 ]
 
 if (window.matchMedia("(min-width:915px)").matches) {
