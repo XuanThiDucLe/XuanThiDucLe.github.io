@@ -469,9 +469,10 @@ iframe {
     .nextButton {
         text-align: center;
         width: 50%;
+        height: 20px;
         border-style: solid;
         border-width: 2px;
-        margin: 25%;
+        
     }
     .portrait {
         margin-top: 0.625rem;
