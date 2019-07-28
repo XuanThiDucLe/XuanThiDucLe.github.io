@@ -1,0 +1,6 @@
+.ex{
+    width: 100%;
+    height: 670px;
+    overflow-y:hidden;
+    overflow-x: scroll;
+  }
