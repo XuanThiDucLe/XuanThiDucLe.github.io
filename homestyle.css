@@ -853,3 +853,20 @@ progress {
 /* video::-webkit-media-controls {
     display:none !important;
 } */
+
+
+
+
+.parent {
+    position: relative;
+    
+
+  }
+  .image1 {
+    position: relative;
+   
+  }
+  .image2 {
+    position: absolute;
+    
+  }
