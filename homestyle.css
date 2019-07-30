@@ -311,6 +311,13 @@ a:link, a:visited {
     padding-top: 3%;
 }
 
+.projektTexthaufen6 {
+    max-width: 50%;
+    padding-left:10%;
+    height: auto;
+    padding-top: 3%;
+}
+
 .projTitelBild {
     display: block;
     width: 96%;
