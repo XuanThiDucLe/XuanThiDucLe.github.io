@@ -176,7 +176,7 @@ p {
 }
 
 .img80 {
-    width: 100%;
+    width: 65%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -651,8 +651,8 @@ iframe {
     }
     .projektTexthaufen {
         text-align: left;
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .portrait {
         margin-top: 6.25rem;
