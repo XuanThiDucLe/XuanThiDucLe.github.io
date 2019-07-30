@@ -158,11 +158,11 @@ p {
 
 p1 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-style: italic;
+    font-weight: 700;
+    font-style: normal;
     font-size: 1.25rem;
     line-height: 1.5;
-    margin: 24px;
+     margin: -1px; 
 }
 
 #background {
