@@ -176,7 +176,7 @@ p {
 }
 
 .img80 {
-    width: 80%;
+    width: 65%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -570,8 +570,11 @@ iframe {
     }
     .projektTexthaufen {
         text-align: left;
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 10%; 
+        /* padding-left: 20%;
+        padding-right: 20%;  */
+
     }
     /*auch für mailbutton */
     .nextButton {
