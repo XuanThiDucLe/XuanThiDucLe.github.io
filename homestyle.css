@@ -165,6 +165,16 @@ p1 {
      margin: -1px; 
 }
 
+.badge-font{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+
+}
+
+.badge{
+    margin: 1%;
+}
+
 #background {
     position: fixed;
     top: 0;
