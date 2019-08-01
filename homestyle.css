@@ -412,6 +412,14 @@ iframe {
     padding-left:10%;
 }
 
+/* skills */
+.skill{
+width: fit-content;
+padding: 5px 10px;
+border-radius: 28px;
+margin-right: 10px;
+}
+
 /*smartphone*/
 
 @media only screen and (max-width:1000px) {
