@@ -416,13 +416,15 @@ iframe {
 
 
 .tryit{
+ /* padding-top: 1%; */
+ padding-top: 1rem;
     text-align: center;
-    padding-top: 2%;
+    vertical-align: middle;
     width: fit-content;
+    height: 70px;
     padding-left:5%;
     padding-right:5%; 
     /* width: 30%; */
-    height: 70px;
     border-style: solid;
     border-width: 2px;
     font-size: 30px;
