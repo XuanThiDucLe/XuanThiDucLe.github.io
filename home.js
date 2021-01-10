@@ -29,7 +29,7 @@ if (window.matchMedia("(min-width:915px)").matches) {
                 proj.style.background = active.background;
                 proj.style.color = "#0F1217";
                 document.getElementById("background").style.backgroundImage = pic;
-                document.getElementById("background").style.opacity = 0.5;
+                document.getElementById("background").style.opacity = 0.2;
                 homeText.children[0].textContent = texte[i].titel;
                 homeText.children[1].textContent = texte[i].text;
             });
