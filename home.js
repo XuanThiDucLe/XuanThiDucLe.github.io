@@ -4,7 +4,7 @@ var texte = [
     { titel: "Prototyping Lab", text: "Wie sieht das perfekte IoT Prototyping Lab aus? Dieser Frage gehen wir mit Hilfe von Design Thinking nach.  " },
     { titel: "Bachelor thesis", text: "Coming soon - Mit der Bachelorarbeit kommt auch ein Redesign des Portofiols" }
 ]
-
+//test
 
 if (window.matchMedia("(min-width:915px)").matches) {
     window.onload = () => {
