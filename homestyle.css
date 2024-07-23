@@ -4,6 +4,7 @@
         -webkit-transform: translate3d(0, 20px, 0);
         transform: translate3d(0, 20px, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -18,6 +19,7 @@
         -ms-transform: translate3d(0, 20px, 0);
         transform: translate3d(0, 20px, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -28,12 +30,12 @@
 
 /* vertical scroll */
 
-.ex1{
+.ex1 {
     width: 100%;
     height: 560px;
-    overflow-y:hidden;
+    overflow-y: hidden;
     overflow-x: scroll;
-  }
+}
 
 /*Animationen*/
 
@@ -64,19 +66,19 @@
 
 .break {
     height: 100px;
-  }
+}
 
-.breaksmall{
+.breaksmall {
     height: 20px;
-  }
-  
+}
+
 :root {
     font-size: 16px;
 }
 
 body {
     /* background-color: #242e37; */
-    color: white;
+    color: #F0F0F0;
     transition: background-image 0.5s linear;
     background-color: #0F1217;
     margin: 0;
@@ -164,16 +166,16 @@ p1 {
     font-style: normal;
     font-size: 1.25rem;
     line-height: 1.5;
-     margin: -1px; 
+    margin: -1px;
 }
 
-.badge-font{
+.badge-font {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25rem;
 
 }
 
-.badge{
+.badge {
     margin: 1%;
 }
 
@@ -203,7 +205,7 @@ p1 {
     margin-right: auto;
 }
 
-.videoformat{
+.videoformat {
     width: 100%;
     display: block;
     margin-left: auto;
@@ -215,7 +217,7 @@ p1 {
 
 /* Navbar*/
 
-.navbar{
+.navbar {
     margin-top: 4px;
 }
 
@@ -260,7 +262,7 @@ nav .navbar-nav>.active>a {
 .navbar-nav .nav-item:hover .nav-link-disable {
     color: rgba(95, 95, 95);
     font-family: 'Roboto Slab', serif;
-    
+
 }
 
 .nav-link {
@@ -278,7 +280,8 @@ nav .navbar-nav>.disabled>a {
     font-family: 'Roboto Slab', serif;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.918);
     font-family: 'Roboto Slab', serif;
@@ -318,7 +321,7 @@ a:link, a:visited {
 
 .projektTitel1 {
     text-align: center;
-    
+
 }
 
 .projektTitel2 {
@@ -331,7 +334,7 @@ a:link, a:visited {
     text-align: center;
     padding: 5%;
     padding-top: 10%;
-    
+
 }
 
 .projektTexthaufen {
@@ -342,7 +345,7 @@ a:link, a:visited {
 
 .projektTexthaufen6 {
     max-width: 50%;
-    padding-left:10%;
+    padding-left: 10%;
     height: auto;
     padding-top: 3%;
 }
@@ -363,7 +366,7 @@ a:link, a:visited {
 .center {
     margin: 0 auto;
     width: 80%;
-    
+
 }
 
 .centerVideo {
@@ -374,7 +377,7 @@ a:link, a:visited {
 
 .centerVideo6 {
     /* margin: 0 auto; */
-    width:30%;
+    width: 30%;
 
 }
 
@@ -409,21 +412,21 @@ iframe {
     background-size: cover;
 }
 
-.projWireframes{
+.projWireframes {
     width: 80%;
     height: auto;
 }
 
 
-.tryit{
- /* padding-top: 1%; */
- padding-top: 1rem;
+.tryit {
+    /* padding-top: 1%; */
+    padding-top: 1rem;
     text-align: center;
     vertical-align: middle;
     width: fit-content;
     height: 70px;
-    padding-left:5%;
-    padding-right:5%; 
+    padding-left: 5%;
+    padding-right: 5%;
     /* width: 30%; */
     border-style: solid;
     border-width: 2px;
@@ -432,16 +435,16 @@ iframe {
 
 /* col-6 */
 
-.links6{
-    padding-left:10%;
+.links6 {
+    padding-left: 10%;
 }
 
 /* skills */
-.skill{
-width: fit-content;
-padding: 5px 10px;
-border-radius: 28px;
-margin-right: 10px;
+.skill {
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 28px;
+    margin-right: 10px;
 }
 
 /*smartphone*/
@@ -451,29 +454,38 @@ margin-right: 10px;
         padding-top: 10%;
         font-size: 32.81px;
     }
-    html, body {
+
+    html,
+    body {
         overflow-x: hidden;
     }
+
     body {
         position: relative;
     }
+
     .jumbotron {
         height: auto;
         background-size: cover;
         background-repeat: no-repeat;
     }
+
     nav ul {
         padding-right: 0px;
     }
+
     .navbar-toggler {
         border-radius: 0%;
     }
+
     .navbar-brand {
         padding-left: 0px;
         padding-top: 0px;
         font-size: 40px;
     }
-    .ml-auto2, .mx-auto {
+
+    .ml-auto2,
+    .mx-auto {
         /* margin-left: 10%;
          margin-right: 10%; */
         margin-left: 15%;
@@ -481,6 +493,7 @@ margin-right: 10px;
         margin-top: 0px;
         transition: 0.4s;
     }
+
     .projektbox {
         width: 100%;
         height: 200px;
@@ -490,40 +503,49 @@ margin-right: 10px;
         padding-right: 50%;
         margin-bottom: 10px;
     }
+
     .title {
         padding-left: 16px;
     }
+
     .textFaehigkeiten {
         padding-left: 16px;
     }
+
     .container {
         margin: 0%;
         padding: 0%;
         max-width: 100%;
     }
+
     .text {
         margin-right: 2%;
     }
+
     #projekt1 {
         background-image: url("bild2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     #projekt2 {
         background-image: url("bild3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     #projekt3 {
         background-image: url("bild4.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     #projekt4 {
         background-image: url("bild5.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .projektTexthaufen {
         text-align: left;
         padding-left: 10%;
@@ -531,6 +553,7 @@ margin-right: 10px;
         padding-top: 10%;
         padding-bottom: 10%;
     }
+
     .information {
         text-align: left;
         padding-left: 10%;
@@ -538,9 +561,11 @@ margin-right: 10px;
         padding-top: 10%;
         padding-bottom: 10%;
     }
+
     .hide {
         display: none;
     }
+
     /*auch für mailbutton*/
     .nextButton {
         text-align: center;
@@ -549,18 +574,22 @@ margin-right: 10px;
         border-width: 2px;
         margin: 25%;
     }
+
     .portrait {
         margin-top: 0.625rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     }
+
     .aboutMe {
         margin-top: 0.625rem;
         margin-left: 0.625rem;
     }
+
     .skill {
         margin-top: 0.625rem;
         margin-left: 0.625rem;
     }
+
     .background1 {
         width: 100%;
         min-height: 300px;
@@ -568,6 +597,7 @@ margin-right: 10px;
         background-size: cover;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2sm.jpg");
     }
+
     .background2 {
         width: 100%;
         min-height: 300px;
@@ -575,6 +605,7 @@ margin-right: 10px;
         background-size: cover;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4sm.jpg");
     }
+
     .background3 {
         width: 100%;
         min-height: 300px;
@@ -589,21 +620,26 @@ margin-right: 10px;
         height: 900px;
         background-size: cover;
     }
+
     nav ul {
         padding-right: 0px;
     }
+
     .navbar-brand {
         padding-left: 125px;
         padding-top: 20px;
         font-size: 40px;
     }
+
     .navbar-nav {
         /* width: auto; */
         padding-right: 0.75rem;
     }
+
     #navbarCol {
         transition: 0.3s;
     }
+
     #navbarNav {
         width: 100%;
         padding-top: 0px;
@@ -611,25 +647,31 @@ margin-right: 10px;
         transition: 0.4s;
         /*  margin-right: -1%; */
     }
-    .ml-auto2, .mx-auto {
+
+    .ml-auto2,
+    .mx-auto {
         margin-left: 15%;
         margin-right: 0%;
         margin-top: -50%;
     }
+
     .title {
         padding-top: 10rem;
     }
+
     .boxcontainer {
         padding-top: 10rem;
     }
+
     .projektTexthaufen {
         text-align: left;
         padding-left: 10%;
-        padding-right: 10%; 
+        padding-right: 10%;
         /* padding-left: 20%;
         padding-right: 20%;  */
 
     }
+
     /*auch für mailbutton */
     .nextButton {
         text-align: center;
@@ -637,17 +679,21 @@ margin-right: 10px;
         border-style: solid;
         border-width: 2px;
     }
+
     .portrait {
         margin-top: 6.25rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     }
+
     .aboutMe {
         margin-top: 10.625rem;
     }
+
     .skill {
         margin-top: 3.625rem;
         margin-left: 0.625rem;
     }
+
     .background1 {
         width: 100%;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
@@ -655,6 +701,7 @@ margin-right: 10px;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .background2 {
         width: 100%;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4.jpg");
@@ -662,6 +709,7 @@ margin-right: 10px;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .background3 {
         width: 100%;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild5.jpg");
@@ -677,21 +725,26 @@ margin-right: 10px;
         height: 900px;
         background-size: cover;
     }
+
     nav ul {
         padding-right: 0px;
     }
+
     .navbar-brand {
         padding-left: 125px;
         padding-top: 20px;
         font-size: 40px;
     }
+
     .navbar-nav {
         /* width: 100%; */
         padding-right: 0.75rem;
     }
+
     #navbarCol {
         transition: 0.3s;
     }
+
     #navbarNav {
         width: 100%;
         padding-top: 0px;
@@ -699,33 +752,42 @@ margin-right: 10px;
         transition: 0.4s;
         /*  margin-right: -1%; */
     }
-    .ml-auto2, .mx-auto {
+
+    .ml-auto2,
+    .mx-auto {
         margin-left: 30%;
         margin-right: 0%;
     }
+
     .title {
         padding-top: 10rem;
     }
+
     .boxcontainer {
         padding-top: 10rem;
     }
+
     .projektTexthaufen {
         text-align: left;
         padding-left: 10%;
         padding-right: 10%;
     }
+
     .portrait {
         margin-top: 6.25rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     }
+
     .aboutMe {
         margin-top: 15.625rem;
     }
+
     .skill {
         margin-top: 6.25rem;
         margin-left: 0.625rem;
         margin-bottom: 6.25rem;
     }
+
     .background1 {
         width: 100%;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
@@ -734,6 +796,7 @@ margin-right: 10px;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .background2 {
         width: 100%;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4.jpg");
@@ -742,6 +805,7 @@ margin-right: 10px;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .background3 {
         width: 100%;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild5.jpg");
@@ -757,9 +821,11 @@ margin-right: 10px;
     .jumbotron {
         background-size: cover;
     }
+
     nav ul {
         padding-right: 0px;
     }
+
     #navbarNav {
         width: 100%;
         padding-top: 0px;
@@ -767,28 +833,36 @@ margin-right: 10px;
         margin-right: 0%;
         transition: 0.4s;
     }
+
     .navbar-nav {
         width: 100%;
     }
+
     #navbarCol {
         transition: 0.3s;
     }
-    .ml-auto2, .mx-auto {
+
+    .ml-auto2,
+    .mx-auto {
         margin-left: 36%;
         margin-right: 10%;
     }
+
     .portrait {
         margin-top: 6.25rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     }
+
     .aboutMe {
         margin-top: 15.625rem;
     }
+
     .skill {
         margin-top: 6.25rem;
         margin-left: 0.625rem;
         margin-bottom: 6.25rem;
     }
+
     .background1 {
         width: 100%;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild2.jpg");
@@ -797,6 +871,7 @@ margin-right: 10px;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .background2 {
         width: 100%;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild4.jpg");
@@ -805,6 +880,7 @@ margin-right: 10px;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .background3 {
         width: 100%;
         background-image: linear-gradient(rgba(36, 46, 55, 0.5), rgba(36, 46, 55, 0.5)), url("bild5.jpg");
@@ -818,8 +894,10 @@ margin-right: 10px;
 /*scroll spy*/
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 
-*, *::after, *::before {
-  box-sizing: border-box;
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
 progress {
@@ -827,66 +905,66 @@ progress {
     position: fixed;
     left: 0;
     top: 0;
-  
+
     /* Dimensions */
     width: 100%;
     height: .25em;
-  
-    /* Reset the apperance */  
+
+    /* Reset the apperance */
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-  
+    -moz-appearance: none;
+    appearance: none;
+
     /* Get rid of the default border in Firefox/Opera. */
     border: none;
-  
+
     /* For Firefox/IE10+ */
     /* background-color: rgba(15, 18, 23, 0.4); */
     background-color: rgba(15, 18, 23, 1);
-  
+
     /* For IE10+, color of the progress bar */
     color: rgb(255, 216, 74);
 
     z-index: 10;
-  }
-  
-  progress::-webkit-progress-bar {
+}
+
+progress::-webkit-progress-bar {
     background-color: transparent;
-  }
-  
-  .flat::-webkit-progress-value {
+}
+
+.flat::-webkit-progress-value {
     background-color: rgb(255, 216, 74);
-  }
-  
-  .flat::-moz-progress-bar {
+}
+
+.flat::-moz-progress-bar {
     background-color: rgb(255, 216, 74);
-  }
-  
-  .single::-webkit-progress-value {
+}
+
+.single::-webkit-progress-value {
     background-color: transparent;
     background-image: -webkit-linear-gradient(left, transparent, rgb(255, 216, 74));
-  }
-  
-  .single::-moz-progress-bar {
+}
+
+.single::-moz-progress-bar {
     background-color: transparent;
     background-image: -moz-linear-gradient(left, transparent, rgb(255, 216, 74));
-  }
-  
-  .multiple::-webkit-progress-value {
-    background-image: -webkit-linear-gradient(-45deg, 
-                                 transparent 33%, rgba(0, 0, 0, .1) 33%, 
-                                 rgba(0,0, 0, .1) 66%, transparent 66%),
-                        -webkit-linear-gradient(left, rgb(255, 216, 74), rgb(255, 216, 74));
-  }
-  
-  .multiple::-moz-progress-bar {
-    background-image: -moz-linear-gradient(-45deg, 
-                                 transparent 33%, rgba(0, 0, 0, .1) 33%, 
-                                 rgba(0,0, 0, .1) 66%, transparent 66%),
-                        -moz-linear-gradient(left, rgb(255, 216, 74), rgb(255, 216, 74));
-  }
-  
-  .progress-container {
+}
+
+.multiple::-webkit-progress-value {
+    background-image: -webkit-linear-gradient(-45deg,
+            transparent 33%, rgba(0, 0, 0, .1) 33%,
+            rgba(0, 0, 0, .1) 66%, transparent 66%),
+        -webkit-linear-gradient(left, rgb(255, 216, 74), rgb(255, 216, 74));
+}
+
+.multiple::-moz-progress-bar {
+    background-image: -moz-linear-gradient(-45deg,
+            transparent 33%, rgba(0, 0, 0, .1) 33%,
+            rgba(0, 0, 0, .1) 66%, transparent 66%),
+        -moz-linear-gradient(left, rgb(255, 216, 74), rgb(255, 216, 74));
+}
+
+.progress-container {
     width: 100%;
     background-color: transparent;
     position: fixed;
@@ -894,43 +972,43 @@ progress {
     left: 0;
     height: .25em;
     display: block;
-  }
-  
-  .progress-bar {
+}
+
+.progress-bar {
     background-color: rgb(255, 216, 74);
     width: 50%;
     display: block;
     height: inherit;
-  }
-    
-  /*scroll spy*/
+}
+
+/*scroll spy*/
 
 
 
 
 
-  /* versuch  */
+/* versuch  */
 
-  #videosList {
-  max-width: 100%; 
-  overflow: hidden;
- 
+#videosList {
+    max-width: 100%;
+    overflow: hidden;
+
 }
 
 
 
-.thevideo{
+.thevideo {
     width: 50%;
     height: auto;
-    
-    
+
+
 }
 
-.down{
+.down {
     margin-top: 50px;
 }
 
-.down2{
+.down2 {
     margin-top: 100px;
 }
 
@@ -944,14 +1022,16 @@ progress {
 
 .parent {
     position: relative;
-    
 
-  }
-  .image1 {
+
+}
+
+.image1 {
     position: relative;
-   
-  }
-  .image2 {
+
+}
+
+.image2 {
     position: absolute;
-    
-  }
+
+}
